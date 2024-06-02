@@ -1,0 +1,17 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "chat App",
+  "main": "index.js",
+  "scripts": {
+     "devStart": "nodemon server.js"
+  },
+  "author": "Abdullahi",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
